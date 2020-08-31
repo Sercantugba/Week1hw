@@ -1,10 +1,17 @@
+import java.util.Scanner;
 
-public class multiplyoutput
-{
-  static int x = 25;
-  static int y = 5;
- public static void main(String[] args)
-  {
-   System.out.println(x*y);
-   }
+public class Multiplyoutput {
+
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+
+        System.out.print("Input first number: ");
+        int num1 = in.nextInt();
+
+        System.out.print("Input second number: ");
+        int num2 = in.nextInt();
+
+        System.out.println(num1 + " x " + num2 + " = " + num1 * num2);
+    }
+
 }
